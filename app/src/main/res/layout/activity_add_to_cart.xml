@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="eloi.ancellin.finalproject.controller.MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/activity_addToCart_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@android:color/holo_blue_light"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/activity_addToCart_price"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@android:color/holo_blue_light"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/activity_addToCart_qty"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@android:color/holo_blue_light"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/activity_addToCart_totPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text=""
+        android:background="@android:color/holo_blue_light"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/activity_addToCart_asked_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="What qty to you want? "
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_light"
+        />
+
+
+    <Button
+        android:id="@+id/activity_addToCart_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Add to cart"
+        android:textSize="30dp"
+
+        />
+
+
+</LinearLayout>

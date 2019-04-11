@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "676340036505",
+    "firebase_url": "https://fp-cs232-eloiancellin.firebaseio.com",
+    "project_id": "fp-cs232-eloiancellin",
+    "storage_bucket": "fp-cs232-eloiancellin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676340036505:android:ea4b8457efec62d7",
+        "android_client_info": {
+          "package_name": "eloi.ancellin.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6N-6dt9Vr13ms5SE6q692l_uJKJte-kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676340036505-8iuetmlapv1ecg8t5pu6lhng95p74m05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

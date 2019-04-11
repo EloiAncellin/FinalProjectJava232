@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="eloi.ancellin.finalproject.controller.MainActivity">
+
+
+    <EditText
+        android:id="@+id/activity_add_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_marginTop="100dp"
+
+        />
+    <EditText
+        android:id="@+id/activity_add_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Price"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+
+        />
+    <EditText
+        android:id="@+id/activity_add_item_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Quantity"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/activity_add_item_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Submit"
+        android:textSize="30dp"
+
+        />
+</LinearLayout>

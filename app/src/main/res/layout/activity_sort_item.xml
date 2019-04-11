@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="eloi.ancellin.finalproject.controller.SortItem">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="30dp"
+        android:background="#3F4A49"
+        android:gravity="center"
+        android:text="How do you want to sort the shopping lit ? "></TextView>
+
+    <Button
+        android:id="@+id/activity_sort_button_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:text="Price"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="45dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/activity_sort_button_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="50dp"
+        android:text="Name"
+        android:textSize="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/activity_sort_button_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Quantity"
+        android:textSize="30dp"
+        />
+
+
+
+</LinearLayout>

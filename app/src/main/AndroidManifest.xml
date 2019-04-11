@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eloi.ancellin.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".controller.Cart"></activity>
+        <activity android:name=".controller.SortItem" />
+        <activity android:name=".controller.AddItem" />
+        <activity android:name=".controller.AddToCart" />
+        <activity
+            android:name=".controller.Shopping"
+            android:label="@string/title_activity_shopping"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".controller.Register" />
+        <activity android:name=".controller.Login" />
+        <activity android:name=".controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
