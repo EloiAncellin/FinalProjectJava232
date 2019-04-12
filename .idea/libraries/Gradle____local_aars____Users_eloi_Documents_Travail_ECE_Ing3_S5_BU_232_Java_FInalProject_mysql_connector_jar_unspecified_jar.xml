@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/eloi/Documents/Travail/ECE/Ing3/S5/BU/232-Java/FInalProject/mysql-connector.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mysql-connector.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
